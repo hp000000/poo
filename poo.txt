@@ -1,0 +1,24 @@
+
+sobre o trabalho: até coleções e arquivos.
+possiveis temas: sistema cadastro app, rpg, pedra papel e tesoura. 
+trabalho em grupo.
+
+Coleções:
+grupos de objetos.
+
+ex intarface List.
+
+Vector = lista com array,  LinkedList = lista encadeada.
+
+map: não é coleção mas coleciona objetos. Associa uma chave a um valor. (é um hashing)
+
+arrayList e vector é quase a mesma coisa, a única diferença é a sincronização. Com ou sem política de acesso concorrente já implementada.
+
+
+Generics: Collection<E>  : fala que quer guardar objetos/elementos do tipo *E* (default).   Ex:HashSet<String> .
+          Collection<?>  :  por causa da herança, quero guardar pessos (funcionario,empresario,cliente..). Faz uma operação na
+                            coleção inteira, sejam seus objetos classes-mães ou classes-filhas. 
+
+No netBeans:
+
+
